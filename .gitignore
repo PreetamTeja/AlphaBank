@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+.env.bank-a
+.env.bank-b
+server/.env
+.claude

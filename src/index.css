@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; background-color: #F4F5F8; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+  -webkit-text-fill-color: #1A1A1A !important;
+}

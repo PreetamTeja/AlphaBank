@@ -1,0 +1,35 @@
+{
+  "name": "bms-bank",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:banka": "cp .env.bank-a .env.local && vite --port 5173",
+    "dev:bankb": "cp .env.bank-b .env.local && vite --port 5174",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "cd server && npm run dev",
+    "server:install": "cd server && npm install"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@hookform/resolvers": "^3.6.0",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@mui/x-data-grid": "^7.7.1",
+    "date-fns": "^3.6.0",
+    "firebase": "^10.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.1",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.24.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.3"
+  }
+}
